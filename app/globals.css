@@ -1,0 +1,131 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+    --background: #F5EEFF;
+    --foreground: #281D33;
+
+    --card: #ffffff;
+    --card-foreground: #281D33;
+
+    --popover: #ffffff;
+    --popover-foreground: #281D33;
+
+    --primary: #281D33;
+    --primary-foreground: #F5EEFF;
+
+    --secondary: #AD7EDC;
+    --secondary-foreground: #281D33;
+
+    --muted: #F5EEFF;
+    --muted-foreground: #7F7886;
+
+    --accent: #AD7EDC;
+    --accent-foreground: #281D33;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+
+    --border: #7F7886;
+    --input: #7F7886;
+    --ring: #AD7EDC;
+
+    --radius: 0.75rem;
+
+    --sidebar: #281D33;
+    --sidebar-foreground: #F5EEFF;
+    --sidebar-primary: #AD7EDC;
+    --sidebar-primary-foreground: #281D33;
+    --sidebar-accent: #7F7886;
+    --sidebar-accent-foreground: #F5EEFF;
+    --sidebar-border: #7F7886;
+    --sidebar-ring: #AD7EDC;
+
+    --success: #10b981;
+    --success-foreground: #ffffff;
+    --warning: #f59e0b;
+    --warning-foreground: #281D33;
+    --info: #0ea5e9;
+    --info-foreground: #ffffff;
+
+    /* Escala primary (base #281D33) */
+    --primary-50: #f5f3f7;
+    --primary-100: #e6dfee;
+    --primary-200: #d0c0e4;
+    --primary-300: #b69fd7;
+    --primary-400: #9f7ecb;
+    --primary-500: #8a5fc0;
+    --primary-600: #7651a8;
+    --primary-700: #64448f;
+    --primary-800: #533776;
+    --primary-900: #442c5e;
+    --primary-950: #281D33;
+
+    /* Escala neutral (base #7F7886) */
+    --neutral-50: #faf9fc;
+    --neutral-100: #f0edf5;
+    --neutral-200: #e3e0ea;
+    --neutral-300: #d1ccd9;
+    --neutral-400: #b0abc0;
+    --neutral-500: #7F7886;
+    --neutral-600: #6a6470;
+    --neutral-700: #55515a;
+    --neutral-800: #413d45;
+    --neutral-900: #2d2a30;
+    --neutral-950: #1a181c;
+
+    /* Cores de gráficos */
+    --chart-1: #281D33;
+    --chart-2: #AD7EDC;
+    --chart-3: #7F7886;
+    --chart-4: #9f7ecb;
+    --chart-5: #64448f;
+}
+
+.dark {
+    --background: #281D33;
+    --foreground: #F5EEFF;
+
+    --card: #2d2a30;
+    --card-foreground: #F5EEFF;
+
+    --popover: #2d2a30;
+    --popover-foreground: #F5EEFF;
+
+    --primary: #AD7EDC;
+    --primary-foreground: #281D33;
+
+    --secondary: #7F7886;
+    --secondary-foreground: #F5EEFF;
+
+    --muted: #442c5e;
+    --muted-foreground: #d1ccd9;
+
+    --accent: #7F7886;
+    --accent-foreground: #F5EEFF;
+
+    --destructive: #f87171;
+    --destructive-foreground: #ffffff;
+
+    --border: #64448f;
+    --input: #64448f;
+    --ring: #AD7EDC;
+}
+
+
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: "Myanmar Text", system-ui, -apple-system, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading), cursive, sans-serif;
+}

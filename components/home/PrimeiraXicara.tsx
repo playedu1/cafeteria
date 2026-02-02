@@ -25,7 +25,7 @@ export function PrimeiraXicara() {
                             Nunca nos visitou? Venha experimentar nossa "Xícara de Boas Vindas" por um preço simbólico. Queremos te conquistar pelo sabor.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                            <Link href="/voucher" className="px-8 py-4 bg-foreground text-background rounded-full font-bold text-lg hover:bg-black hover:text-white transition-colors shadow-lg">
+                            <Link href="/contato" className="px-8 py-4 bg-foreground text-background rounded-full font-bold text-lg hover:bg-black hover:text-white transition-colors shadow-lg">
                                 Quero meu voucher (R$ 5)
                             </Link>
                             <Link href="/cardapio" className="px-8 py-4 bg-transparent border-2 border-accent-foreground/30 text-accent-foreground rounded-full font-bold text-lg hover:bg-accent-foreground/5 transition-colors">

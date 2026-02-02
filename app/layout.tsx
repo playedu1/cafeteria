@@ -27,7 +27,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="pt-BR" className={`${inter.variable} ${charm.variable}`}>
+        <html lang="pt-BR" className={`${inter.variable} ${charm.variable}`} suppressHydrationWarning>
             <body className="font-sans antialiased min-h-screen bg-background text-foreground flex flex-col">
                 {/* TODO: Adicionar Header aqui */}
                 <div className="flex-1">

@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     title: 'Cafeteria | O café que te abraça',
     description: 'Não importa o seu dia, aqui tem o café certo pra você. Venha sentir o conforto em cada xícara.',
     keywords: ['café', 'cafeteria', 'conforto', 'lattes', 'espresso'],
+    icons: {
+        icon: '/icon.png',
+        shortcut: '/favicon.ico',
+        apple: '/apple-icon.png',
+    },
 }
 
 export default function RootLayout({
